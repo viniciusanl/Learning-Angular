@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BarraNavComponent } from './barra-nav/barra-nav/barra-nav.component';
+import { BarraNavComponent } from './barra-nav/barra-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarraNavComponent
+    BarraNavComponent,
   ],
   imports: [
     BrowserModule,
