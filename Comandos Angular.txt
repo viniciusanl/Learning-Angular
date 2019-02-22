@@ -1,0 +1,54 @@
+npm install -g @angular/cli = Instala o Angular
+
+
+ng g c (Ou component) <nome> = Gera um componente
+ng g m (Ou Module) <nome> = Gera um modulo
+ng g s (Ou Service) <nome> = Gera um serviço
+
+ng new <nome> = Cria uma aplicação
+
+ng serve --open = Serve a aplicação
+
+
+
+Installing Bootstrap
+
+
+*Comando
+
+npm install ngx-bootstrap bootstrap --save
+
+ng add ngx-bootstrap = Adiciona o Bootstrap no projeto
+
+<!-- Componentes Bootstrap
+
+	ng add ngx-bootstrap  --component accordion
+        ng add ngx-bootstrap  --component alerts
+        ng add ngx-bootstrap  --component buttons
+        ng add ngx-bootstrap  --component carousel
+        ng add ngx-bootstrap  --component collapse
+        ng add ngx-bootstrap  --component datepicker
+        ng add ngx-bootstrap  --component dropdowns
+        ng add ngx-bootstrap  --component modals
+        ng add ngx-bootstrap  --component pagination
+        ng add ngx-bootstrap  --component popover
+        ng add ngx-bootstrap  --component progressbar
+        ng add ngx-bootstrap  --component rating
+        ng add ngx-bootstrap  --component sortable
+        ng add ngx-bootstrap  --component tabs
+        ng add ngx-bootstrap  --component timepicker
+        ng add ngx-bootstrap  --component tooltip
+        ng add ngx-bootstrap  --component typeahead
+
+-->
+
+
+
+*Angular.json > Styles >
+
+
+"styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "src/styles.css"
+            ],
