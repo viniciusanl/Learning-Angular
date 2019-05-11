@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BarraNavComponent } from './barra-nav/barra-nav.component';
 import { HomeComponent } from './home/home.component';
 import { TelaLoginComponent } from './tela-login/tela-login.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import { FooterPageComponent } from './footer-page/footer-page.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { TelaLoginComponent } from './tela-login/tela-login.component';
     BarraNavComponent,
     HomeComponent,
     TelaLoginComponent,
+    ProdutosComponent,
+    FooterPageComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,
