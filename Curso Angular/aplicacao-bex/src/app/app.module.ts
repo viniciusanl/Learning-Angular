@@ -9,6 +9,9 @@ import { TelaLoginComponent } from './tela-login/tela-login.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { FooterPageComponent } from './footer-page/footer-page.component';
 import { ContatoComponent } from './contato/contato.component';
+import { CadProdutoComponent } from './cad-produto/cad-produto.component';
+import { NavAdmComponent } from './nav-adm/nav-adm.component';
+import { CadFuncionarioComponent } from './cad-funcionario/cad-funcionario.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { ContatoComponent } from './contato/contato.component';
     ProdutosComponent,
     FooterPageComponent,
     ContatoComponent,
+    CadProdutoComponent,
+    NavAdmComponent,
+    CadFuncionarioComponent,
   ],
   imports: [
     BrowserModule,

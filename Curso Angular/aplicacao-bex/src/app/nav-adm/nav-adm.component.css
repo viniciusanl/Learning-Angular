@@ -1,0 +1,44 @@
+.paletaDeCores{
+    color: #3F3F37;
+    color: #D6D6B1;
+    color: #E94F37;
+    color: #494331;
+    color: #878472;
+}
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+
+#config-img-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    height: 30px;
+    object-fit: contain;
+    position: relative;
+}

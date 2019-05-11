@@ -6,3 +6,39 @@
 .card-muda {
     background-color: #3F3F37;
 }
+
+#caneca-img {
+    width: 200px;
+    height: 200px;
+}
+
+.input {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.input span {
+    position: absolute;
+    display: block;
+    color: #878472;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #878472;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: #878472;
+}
+
+.input input:focus {
+    padding: 10px 5px 10px 35px;
+    outline: 0;
+    border-color: #878472;
+}

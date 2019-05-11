@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans:600|Ubuntu');
+/* Fade In - Fade Out */
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Termino Fade In - Fade Out */
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 0) {}
+
+.custom-class {
+    display: none;
+}
+
+.jumbotron {
+    background-color: #878472;
+    font-family: 'Nunito', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Modak');
+#canequeria {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+}
+
+.paletaDeCores {
+    color: #3F3F37;
+    color: #D6D6B1;
+    color: #E94F37;
+    color: #494331;
+    color: #878472;
+}
+
+#caneca-img {
+    width: 200px;
+    height: 200px;
+}
+
+#center {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+#config-img {
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    border-radius: 10%;
+    height: 200px;
+    object-fit: contain;
+    width: 200px;
+    transition-duration: 2s;
+    position: relative;
+    -webkit-animation: fadeIn 4s ease-in-out;
+    -moz-animation: fadeIn 4s ease-in-out;
+    -o-animation: fadeIn 4s ease-in-out;
+    animation: fadeIn 4s ease-in-out;
+}
+
+#text {
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    border-radius: 5%;
+    background-color: #D6D6B1;
+}
+
+.input {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.input span {
+    position: absolute;
+    display: block;
+    color: #878472;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #878472;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: #878472;
+}
+
+.input input:focus {
+    padding: 10px 5px 10px 35px;
+    outline: 0;
+    border-color: #878472;
+}
