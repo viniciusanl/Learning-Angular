@@ -1,3 +1,11 @@
+.paletaDeCores{
+    color: #3F3F37;
+    color: #D6D6B1;
+    color: #E94F37;
+    color: #494331;
+    color: #878472;
+}
+
 .view {
     background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
     background-size: cover;

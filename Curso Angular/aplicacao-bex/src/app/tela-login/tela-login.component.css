@@ -1,22 +1,21 @@
 * {
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-html,
-
-body {
-  background: url(https://image.freepik.com/vetores-gratis/design-de-padrao-minimo-triangulo-em-tons-pastel_1017-14885.jpg) repeat fixed;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 200;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+html, body {
+    background: #878472;
+    /*background: url(https://image.freepik.com/vetores-gratis/design-de-padrao-minimo-triangulo-em-tons-pastel_1017-14885.jpg) repeat fixed;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .login {
@@ -25,15 +24,15 @@ body {
     width: 250px;
     display: table;
     margin: -150px auto 0 auto;
-    background: #3F3F37;
-    border-radius: 4px;
+    background: #E94F37;
+    border-radius: 10px;
 }
 
 .legend {
     position: relative;
     width: 100%;
     display: block;
-    background: #E94F37;
+    background: #494331;
     padding: 15px;
     color: #fff;
     font-size: 20px;
@@ -62,7 +61,7 @@ body {
 .input span {
     position: absolute;
     display: block;
-    color: #D6D6B1;
+    color: #878472;
     left: 10px;
     top: 8px;
     font-size: 20px;
@@ -72,7 +71,7 @@ body {
     width: 100%;
     padding: 10px 5px 10px 40px;
     display: block;
-    border: 1px solid #D6D6B1;
+    border: 1px solid #878472;
     border-radius: 4px;
     transition: 0.2s ease-out;
     color: #878472;
@@ -81,7 +80,7 @@ body {
 .input input:focus {
     padding: 10px 5px 10px 35px;
     outline: 0;
-    border-color: #3F3F37;
+    border-color: #878472;
 }
 
 .submit {
@@ -95,12 +94,11 @@ body {
     color: #E94F37;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0px 0px 0px 7px #D6D6B1;
+    box-shadow: 0px 0px 0px 5px #D6D6B1;
     transition: 0.2s ease-out;
 }
 
-.submit:hover,
-.submit:focus {
+.submit:hover, .submit:focus {
     background: #E94F37;
     color: #D6D6B1;
     outline: 0;
