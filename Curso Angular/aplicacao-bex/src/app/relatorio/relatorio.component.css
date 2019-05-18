@@ -18,22 +18,15 @@ html, body {
     position: absolute;
 }
 
-#bt1{
-    margin-left: 6px;
-}
-
-#bt2{
-    margin-left: 66px;
-}
-
-.login {
+.contato {
     position: relative;
-    top: 50%;
-    width: 400px;
+    top: 40%;
     display: table;
     margin: -150px auto 0 auto;
     background: #E94F37;
     border-radius: 10px;
+    width: 30%;
+    height: 260px;
 }
 
 .legend {
@@ -138,4 +131,36 @@ html, body {
     border-bottom-color: #E94F37;
     border-width: 10px;
     margin-left: -10px;
+}
+
+.msg {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.msg span {
+    position: absolute;
+    display: block;
+    color: #878472;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.msg textarea {
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #878472;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: #878472;
+    height: 150px;
+}
+
+.msg textarea:focus {
+    padding: 10px 5px 10px 35px;
+    outline: 0;
+    border-color: #878472;
 }

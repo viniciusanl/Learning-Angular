@@ -12,6 +12,7 @@ import { ContatoComponent } from './contato/contato.component';
 import { CadProdutoComponent } from './cad-produto/cad-produto.component';
 import { NavAdmComponent } from './nav-adm/nav-adm.component';
 import { CadFuncionarioComponent } from './cad-funcionario/cad-funcionario.component';
+import { RelatorioComponent } from './relatorio/relatorio.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CadFuncionarioComponent } from './cad-funcionario/cad-funcionario.compo
     CadProdutoComponent,
     NavAdmComponent,
     CadFuncionarioComponent,
+    RelatorioComponent,
   ],
   imports: [
     BrowserModule,

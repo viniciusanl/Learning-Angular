@@ -163,3 +163,13 @@ html, body {
     outline: 0;
     border-color: #878472;
 }
+
+#config{
+    margin-top: 90px;
+}
+
+#but{
+    margin-left: 10px;
+    border: 10px;
+    margin: 10px;
+}
