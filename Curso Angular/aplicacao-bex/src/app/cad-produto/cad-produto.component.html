@@ -1,25 +1,63 @@
-<div class="jumbotron" align="center">
-  <img src="../assets/Canequeria.jpeg" id="config-img" align="left" />
 
-  <div>
-    <div class="card-columns">
-      <div class="card" align="center">
-        <img src="../assets/c1.png" class="card-img-top" id="caneca-img">
-        <div class="card-body">
-          <h5 class="card-title">Caneca Exemplo 1</h5>
-          <p class="card-text">Descrição do produto</p>
-          <label>Quantidade
-            <select name="singleSelect" ng-model="data.singleSelect">
-              <option value="option-1">1</option>
-              <option value="option-2">2</option>
-            </select>
-            <div class="input">
-              <input type="money" placeholder="Valor" required />
-              <span><i class="fas fa-hand-holding-usd"></i></span>
-            </div>
-            <button type="button" class="btn btn-outline-secondary">Cadastrar</button>
-          </label>
+<div class="jumbotron" align="center">
+
+
+
+  <div class="container row-md-6"></div>
+
+  <form>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="nome">Nome do produto</label>
+          <input type="name" class="form-control" id="nome" placeholder="Nome">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Quantidade</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="nome">Valor do produto</label>
+          <div class="input">
+
+
+            <input type="name" class="form-control" id="nome" placeholder="Valor">
+            <span><i class="fas fa-hand-holding-usd"></i></span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-8">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Descrição do Produto</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" cols="100" rows="10"></textarea>
         </div>
       </div>
+
     </div>
-  </div>
+
+
+  </form>
+
+  <form>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+      </div>
+      <div class="col-sm-4">
+          <input class="btn btn-primary" type="submit" value="Cadastrar">
+      </div>
+
+    </div>
+  </form>
+
+</div>
